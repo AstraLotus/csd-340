@@ -6,7 +6,4 @@
 - 🌱 I’m currently learning **HTML & CSS**
 
 - 📫 How to reach me **zoeynaizer@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
 </p>
