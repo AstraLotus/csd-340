@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Naizer_EX5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+body {
+  background-color: rgba(247, 112, 24, 0.2);
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  color: rgba(185, 63, 8, 1);
+  margin-top: 10%;
+}
+
+#image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10%;
+}
+
+.image-item {
+  border: solid 5px rgba(185, 63, 8, 1);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+h3 {
+  color: rgba(185, 63, 8, 1);
+}
+
+img {
+  width: 400px;
+  height: 350px;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+  color: rgba(185, 63, 8, 1);
+}
+</style>
+</head>
+  <body>
+    <div>
+  <h1 style="text-align: center;">Assignment 5.2: Build a Web Page Exercise - Part 4</h1>
+  <div id="image-gallery">
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
+      <div>
+        <h3>Kybalion</h3>
+        <figure>
+          <img src="C:\Users\Zoey\Desktop\College\Spring 2023 Term\CSD 340\Module 5\images\1363427.jpg">
+          <figcaption>(Author: Kybalion)</figcaption>
+        </figure>
+      </div>
+      <div>
+        <h3>The Book of the Dead</h3>
+        <figure>
+          <img src="C:\Users\Zoey\Desktop\College\Spring 2023 Term\CSD 340\Module 5\images\9780140455298.jpg">
+          <figcaption>(Author: The Hermetica)</figcaption>
+        </figure>
+      </div>
+      <div>
+        <h3>The Things They Carried</h3>
+        <figure>
+          <img src="C:\Users\Zoey\Desktop\College\Spring 2023 Term\CSD 340\Module 5\images\81VMqrRZMzL._SL1500_.jpg">
+          <figcaption>(Author: Tim O'Brien)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
