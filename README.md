@@ -10,4 +10,4 @@
 - 🌱 I’m currently learning **HTML & CSS**
 
 - 📫 How to reach me **zoeynaizer@gmail.com**
-</p>
+
